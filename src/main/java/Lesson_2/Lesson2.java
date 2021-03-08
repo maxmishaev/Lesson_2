@@ -114,7 +114,7 @@ public class Lesson2 {
         System.out.println("Максимальное: " + arrMax(someArr));
         System.out.print("Минимальное: " + arrMin(someArr));
 
-        System.out.println("");
+        System.out.println();
 
         //ЗАДАНИЕ 4. Задаётся квадратный целочисленный массив. Нужно заполнить его диагонали числами 1.
         int [][] arrX = {{1,2,3,5,8},{2,5,6,9,5},{7,8,0,9,4}, {7,5,2,3,2}, {6,5,4,8,7}};
@@ -126,18 +126,10 @@ public class Lesson2 {
             for(int j=0; j<arrX.length; j++) {
                 System.out.print(arrX[i][j] + " ");
             }
-            System.out.println("");
+            System.out.println();
         }
 
-      /*  arrX = oneInDiagonals(arrX);
 
-        for(int i=0; i<arrX.length - 1; i++) {
-            for(int j=0; j<arrX.length - 1; j++) {
-                System.out.print(arrX[i][j] + " ");
-            }
-            System.out.println("");
-        }
-        */
 
 
 
